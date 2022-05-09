@@ -1,0 +1,1 @@
+const e={key:"v-eb782a3a",path:"/music/",title:"music",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{createdTime:1652107644e3,updatedTime:1652107644e3,contributors:[{name:"yzqdev",email:"yzqdev@outlook.com",commits:1}]},readingTime:{minutes:0,words:1},filePathRelative:"music/README.md"};export{e as data};

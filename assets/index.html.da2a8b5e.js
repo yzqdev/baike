@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{a as s,o as t,b as o,d as a}from"./app.c11e3374.js";const c={},r={id:"physics",tabindex:"-1"},_=o("a",{class:"header-anchor",href:"#physics","aria-hidden":"true"},"#",-1),i=a(" physics"),n=[_,i];function d(h,f){return t(),s("h1",r,n)}var p=e(c,[["render",d],["__file","index.html.vue"]]);export{p as default};
