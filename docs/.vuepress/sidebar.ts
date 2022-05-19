@@ -7,4 +7,5 @@ export default sidebar({
     "/common/": "structure",
     "/economy/": "structure",
     "/cook/": "structure",
+    "/medical/": "structure",
 });
