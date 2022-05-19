@@ -4,13 +4,14 @@
   "description": "pc documents",
   "license": "MIT",
   "scripts": {
-    "docs:build": "vuepress   build docs",
+    "docs:build": "vuepress-webpack   build docs",
     "docs:clean-dev": "vuepress  dev docs --clean-cache",
     "docs:dev": "vuepress  dev docs  "
   },
   "devDependencies": {
     "@vuepress/plugin-search": "next",
     "vuepress": "next",
+    "vuepress-webpack": "next",
     "vuepress-theme-hope": "next"
   }
 }

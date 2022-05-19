@@ -6,4 +6,5 @@ export default sidebar({
     "/physics/": "structure",
     "/common/": "structure",
     "/economy/": "structure",
+    "/cook/": "structure",
 });

@@ -31,4 +31,16 @@ export default navbar([
         activeMatch: "^/common/",
         link: "/common/",
     },
+    {
+        text: "做菜",
+        icon: "common",
+        activeMatch: "^/cook/",
+        link: "/cook/",
+    },
+    {
+        text: "医学",
+        icon: "common",
+        activeMatch: "^/medical/",
+        link: "/medical/",
+    },
 ]);
