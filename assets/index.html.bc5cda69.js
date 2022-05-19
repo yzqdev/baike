@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as t,a as s,b as o,d as a}from"./app.bb760d4e.js";const c={},r={id:"music",tabindex:"-1"},_=o("a",{class:"header-anchor",href:"#music","aria-hidden":"true"},"#",-1),i=a(" music"),n=[_,i];function d(h,m){return t(),s("h1",r,n)}var u=e(c,[["render",d],["__file","index.html.vue"]]);export{u as default};
