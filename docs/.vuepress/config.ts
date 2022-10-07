@@ -1,50 +1,50 @@
-import { defineUserConfig } from "@vuepress/cli";
+import { defineUserConfig } from '@vuepress/cli'
 
-import theme from "./themeConfig";
-import searchPlugin from "vuepress2-plugin-full-text-search";
+import theme from './themeConfig'
+import searchPlugin from 'vuepress2-plugin-full-text-search'
 export default defineUserConfig({
-    base: "/baike/",
-    dest: "./dist",
-    locales: {
-        "/": {
-            // 设置正在使用的语言
-            lang: "zh-CN",
-        },
+  base: '/baike/',
+  dest: './dist',
+  locales: {
+    '/': {
+      // 设置正在使用的语言
+      lang: 'zh-CN',
     },
-    head: [
-        [
-            "link",
-            {
-                rel: "icon",
+  },
+  head: [
+    [
+      'link',
+      {
+        rel: 'icon',
 
-                href: `/baike/images/logo.svg`,
-            },
-        ],
-
-        [
-            "link",
-            {
-                rel: "stylesheet",
-                href: "//at.alicdn.com/t/font_2410206_mfj6e1vbwo.css",
-            },
-        ],
-        [
-            "link",
-            {
-                //我的vscodeiconfont库
-                rel: "stylesheet",
-                href: "//at.alicdn.com/t/font_3267094_1gli0nmxpsr.css",
-            },
-        ],
+        href: `/baike/images/logo.svg`,
+      },
     ],
 
-    // site-level locales config
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: '//at.alicdn.com/t/font_2410206_mfj6e1vbwo.css',
+      },
+    ],
+    [
+      'link',
+      {
+        //我的vscodeiconfont库
+        rel: 'stylesheet',
+        href: '//at.alicdn.com/t/font_3267094_1gli0nmxpsr.css',
+      },
+    ],
+  ],
 
-    lang: "zh-CN",
-    title: "百科",
-    description: "A simple baike",
+  // site-level locales config
 
-    theme: theme,
+  lang: 'zh-CN',
+  title: '百科',
+  description: 'A simple baike',
 
-    plugins: [searchPlugin],
-});
+  theme: theme,
+
+  plugins: [searchPlugin],
+})
