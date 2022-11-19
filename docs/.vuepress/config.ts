@@ -1,7 +1,6 @@
 import { defineUserConfig } from '@vuepress/cli'
-
+import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import theme from './themeConfig'
-import searchPlugin from 'vuepress2-plugin-full-text-search'
 export default defineUserConfig({
   base: '/baike/',
   dest: './dist',
@@ -46,5 +45,9 @@ export default defineUserConfig({
 
   theme: theme,
 
-  plugins: [searchPlugin],
+  plugins: [
+    searchProPlugin({
+      indexContent: true,
+    }),
+  ],
 })
