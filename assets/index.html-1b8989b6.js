@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-eb782a3a","path":"/music/","title":"music","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"createdTime":1652107644000,"updatedTime":1652107644000,"contributors":[{"name":"yzqdev","email":"yzqdev@outlook.com","commits":1}]},"readingTime":{"minutes":0,"words":1},"filePathRelative":"music/README.md","localizedDate":"2022年5月9日"}');export{e as data};
